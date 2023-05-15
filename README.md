@@ -12,4 +12,11 @@ Rep 4. 현장 csv 데이터셋을 이용한 머신러닝 프로젝트 보고서
 
 - 서비스(웹 등)
 
-# 1.주제
+# 1. 주제
+심장질환 예측 모델
+# 2. 데이터
+https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction?datasetId=1582403&sortBy=voteCount
+# 3. 코드
+folder
+# 4. 보고서
+folder

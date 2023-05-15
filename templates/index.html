@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Heart Disease Prediction</title>
+</head>
+<body>
+    <h1>심장질환 예측모델</h1>
+    <form action="/predict" method="post">
+        <label for="age">나이 :</label>
+        <input type="text" id="age" name="age"><br><br>
+        
+        <label for="sex">성별 :</label>
+        <select id="sex" name="sex">
+            <option value="M">남자</option>
+            <option value="F">여자</option>
+        </select><br><br>
+
+        <label for="chest_pain">가슴통증유형 :</label>
+        <select id="chest_pain" name="chest_pain">
+            <option value="ASY">무증상</option>
+            <option value="ATA">비정형 협심증</option>
+            <option value="NAP">비 협심증</option>
+            <option value="TA">전형적인 협심증</option>
+        </select><br><br>
+
+        <label for="resting_bp">휴식시 혈압 :</label>
+        <input type="text" id="resting_bp" name="resting_bp"><br><br>
+
+        <label for="cholesterol">콜레스테롤 수치 :</label>
+        <input type="text" id="cholesterol" name="cholesterol"><br><br>
+
+        <label for="fasting_bs">공복혈당 :</label>
+        <select id="fasting_bs" name="fasting_bs">
+            <option value="0">120mg/dl 미만</option>
+            <option value="1">120mg/dl 초과</option>
+        </select><br><br>
+
+        <label for="resting_ecg">심전도 결과 :</label>
+        <select id="resting_ecg" name="resting_ecg">
+            <option value="LVH">좌심실 비대</option>
+            <option value="Normal">보통</option>
+            <option value="ST">ST-T 파동 이상</option>
+        </select><br><br>
+
+        <label for="max_hr">최대 심박수 :</label>
+        <input type="text" id="max_hr" name="max_hr"><br><br>
+
+        <label for="exercise_angina">운동 유발성 협심증:</label>
+        <select id="exercise_angina" name="exercise_angina">
+            <option value="N">아니오</option>
+            <option value="Y">예</option>
+        </select><br><br>
+
+        <label for="oldpeak">운동으로 인한 ST 우울증 정도 :</label>
+        <input type="text" id="oldpeak" name="oldpeak"><br><br>
+
+        <label for="st_slope">ST 세그먼트의 기울기 :</label>
+        <select id="st_slope" name="st_slope">
+            <option value="Down">다운슬로프</option>
+            <option value="Up">업슬로프</option>
+            <option value="Flat">수평</option>
+        </select><br><br>
+
+        <input type="submit" value="제출">
+    </form>
+</body>
+</html>
+

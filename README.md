@@ -18,6 +18,6 @@ Rep 4. 현장 csv 데이터셋을 이용한 머신러닝 프로젝트 보고서
 https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction?datasetId=1582403&sortBy=voteCount
 # 3. 코드
 folder
-[![Run on Repl.it](https://replit.com/badge/github/K-SRHS/Machine_Learning_Rep)]([https://replit.com/new/github/K-SRHS/Machine_Learning_Rep](https://replit.com/@gamjaK/Machine-Learning-PJ#main.py))
+https://replit.com/@gamjaK/Machine-Learning-PJ#main.py
 # 4. 보고서
 folder
